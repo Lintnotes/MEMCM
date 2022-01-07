@@ -1,0 +1,19 @@
+#pragma namespace ("\\\\.\\root\\cimv2\\SMS")
+#pragma deleteclass("Geolocation_Info", NOFAIL)
+[SMS_Report(TRUE),SMS_Group_Name("Geolocation_Info"),SMS_Class_ID("Geolocation_Info")]
+Class Geolocation_Info: SMS_Class_Template
+{
+[SMS_Report(TRUE),key] string KeyName;
+[SMS_Report(TRUE)] String IP;
+[SMS_Report(TRUE)] String City;
+[SMS_Report(TRUE)] String State;
+[SMS_Report(TRUE)] String Postal;
+[SMS_Report(TRUE)] String Country;
+[SMS_Report(TRUE)] String Code;
+[SMS_Report(TRUE)] String Continent;
+[SMS_Report(TRUE)] String Latitude;
+[SMS_Report(TRUE)] String Longitude;
+[SMS_Report(TRUE)] String TimeZone;
+[SMS_Report(TRUE)] String UTC;
+[SMS_Report(TRUE)] String Date;
+};

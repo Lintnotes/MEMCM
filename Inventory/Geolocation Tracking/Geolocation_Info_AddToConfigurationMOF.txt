@@ -1,0 +1,45 @@
+//=======================================================
+// Geolocation Info
+//=======================================================
+
+#pragma namespace ("\\\\.\\root\\cimv2")
+#pragma deleteclass("Geolocation_Info", NOFAIL)
+[DYNPROPS]
+Class Geolocation_Info
+{
+[key] string KeyName;
+String IP;
+String City;
+String State;
+String Postal;
+String Country;
+String Code;
+String Continent;
+String Latitude;
+String Longitude;
+String TimeZone;
+String UTC;
+String Date;
+};
+
+[DYNPROPS]
+Instance of Geolocation_Info
+{
+KeyName="Geolocation_Info";
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|IP"),Dynamic,Provider("RegPropProv")] IP;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|City"),Dynamic,Provider("RegPropProv")] City;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|State"),Dynamic,Provider("RegPropProv")] State;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|Postal"),Dynamic,Provider("RegPropProv")] Postal;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|Country"),Dynamic,Provider("RegPropProv")] Country;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|Code"),Dynamic,Provider("RegPropProv")] Code;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|Continent"),Dynamic,Provider("RegPropProv")] Continent;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|Latitude"),Dynamic,Provider("RegPropProv")] Latitude;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|Longitude"),Dynamic,Provider("RegPropProv")] Longitude;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|TimeZone"),Dynamic,Provider("RegPropProv")] TimeZone;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|UTC"),Dynamic,Provider("RegPropProv")] UTC;
+[PropertyContext("Local|HKEY_LOCAL_MACHINE\\SOFTWARE\\Lintnotes\\Geolocation_Info|Date"),Dynamic,Provider("RegPropProv")] Date;
+};
+
+//=======================================================
+// Geolocation Info End
+//=======================================================
