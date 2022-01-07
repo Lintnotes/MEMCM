@@ -14,7 +14,7 @@
     Version History:
         1.0.0 - (2022-01-07) - Script Created
 
-    Links: https://github.com/Azure/WindowsVMAgent/blob/main/release-notes/2.7.md
+    Links: https://github.com/Lintnotes/MEMCM/blob/master/Inventory/Geolocation%20Tracking/Release-Notes.md
 
 Disclaimer. The sample scripts are not supported under any Microsoft standard support program or service.
 The sample scripts are provided AS IS without warranty of any kind.
